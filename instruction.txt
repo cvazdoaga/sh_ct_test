@@ -4,3 +4,9 @@ git add .
 git commit -m "message for commit"
 git remote -v
 git remote add origin https://github.com/cvazdoaga/sh_ct_test.git
+git push -u origin master
+git fetch + git merge = git pull
+
+
+generate ssh key after this run :
+ssh -T git@github.com
