@@ -10,6 +10,10 @@ git fetch + git merge = git pull
 to get project from gitHub:
 git clone https://github.com/cvazdoaga/sh_ct_test.git
 
+#create branch
+git branch [branch-name] 
+git checkout
+git push -u origin [branch name]
 
 generate ssh key after this run :
 ssh -T git@github.com
